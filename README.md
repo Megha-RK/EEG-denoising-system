@@ -14,6 +14,8 @@ This project implements an EEG denoising system in Verilog and demonstrates the 
 * ASIC Physical Design Flow
 
 ## System Architecture
+<img width="1536" height="1024" alt="ChatGPT Image Jun 23, 2026, 10_29_41 PM" src="https://github.com/user-attachments/assets/0d47b3f9-206b-4e66-b428-84bae32130f5" />
+
 
 Raw EEG Signal
 → Bandpass Filter
