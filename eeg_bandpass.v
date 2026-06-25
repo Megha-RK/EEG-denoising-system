@@ -78,7 +78,6 @@ reg signed [32:0] tree_lvl1 [0:15];
             acc <= tree_lvl4[0] + tree_lvl4[1];
             bandpass_out <= acc >>> 10;
         end
-    end
-
-endmodule
+       end
+    endmodule
 
