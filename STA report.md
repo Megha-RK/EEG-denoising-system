@@ -18,24 +18,6 @@ This report presents the timing verification and logic sign-off details for the 
 | **Target Clock Frequency** | `100.00 MHz` (`10.00 ns` Period) | 📐 Design Target |
 | **Worst Negative Slack (WNS)** | **`+7.03 ns`** | 🎉 **TIMING MET** |
 
----
-
-## 📈 Circuit Timing Diagram
-```text
-[Launch Register]                                           [Capture Register]
- +-------------+                                             +-------------+
-
- | bp.products | --(Data Released)                           |  bp.acc_reg | <- CLK
- +------+------+                  \                          +------+------+
-        |                          \                                ^
-        v                           v                               |
-  [13 Gate Layers]  ===============> [ Total Path Propagation: 2.80 ns ]
- (\$xor -> and -> or)
-
- 📑 CLOCK CYCLE TARGET: 10.00 ns (100 MHz)  |  ✅ SAFETY SLACK MARGIN: +7.03 ns
-```
-
----
 
 ## 📋 Comprehensive Critical Path Breakdown
 
